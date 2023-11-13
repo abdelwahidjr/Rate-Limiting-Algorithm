@@ -4,7 +4,7 @@ Rate Limiting Algorithm
 - Based on the scenario and requirements you've provided, the goal is to create a rate-limiting algorithm in PHP that will manage API usage and prevent users from exceeding their allotted credit limits per time unit.
 - This algorithm should function without side effects, meaning it won't directly handle any state persistence such as database reads or writes.
 
-## High-Level overview of how you can implement the rate-limiting algorithm in PHP :
+## High-Level overview of how to implement the rate-limiting algorithm in PHP :
 
 - Define the Rate Limiter Function: Create a function that accepts the current credit consumption state, the credit limit per time unit, and the number of credits to consume.
 
